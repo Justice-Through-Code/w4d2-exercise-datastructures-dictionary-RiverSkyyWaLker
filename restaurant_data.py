@@ -94,4 +94,4 @@ def clean_print():
     # for key, value in restaurant_1_items:
         # print(key, value)
 
-clean_print()
+# clean_print()
