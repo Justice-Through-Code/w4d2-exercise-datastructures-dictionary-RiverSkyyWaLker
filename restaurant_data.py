@@ -43,6 +43,8 @@ def favorite_restaurant():
     # name = input("What is your favorite restaurant?: ")
     # address = input("What's the restaurant address?: ")
     # favorite_dish = input("What's your favorite dish?: ")
+
+    favorite_restaurant = {}
     favorite_restaurant["name"] = input("What is your favorite restaurant?: ")
     favorite_restaurant["address"] = input("What's the restaurant address?: ")
     favorite_restaurant["favorite_dish"] = input("What's your favorite dish?: ")
@@ -77,7 +79,7 @@ def favorite_restaurant():
     
     print(favorite_restaurant["address"])
 
-favorite_restaurant()
+# favorite_restaurant()
 
 def clean_print():
 #     # It's hard to read the contents of a dictionary when we print the whole thing out.
